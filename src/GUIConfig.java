@@ -9,7 +9,7 @@ public class GUIConfig {
 
     public static void formatFrame(JFrame frame) {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(820, 632);
+        frame.setSize(835, 632);
         frame.getContentPane().setBackground(new Color(60, 63, 65));
         frame.setLayout(null);
         frame.setResizable(false);
