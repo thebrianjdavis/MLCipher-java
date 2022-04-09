@@ -34,7 +34,7 @@ public class GUIConfig {
                 " erase all text from all fields.\n\n" +
                 "Please contact thebrianjdavis@gmail.com with any questions/suggestions." +
                 "\nCHEERS!";
-        helpField.setBounds(10, 150, 800, 220);
+        helpField.setBounds(10, 150, 800, 240);
         helpField.setText(helpText);
         helpField.setLineWrap(true);
         helpField.setWrapStyleWord(true);
@@ -117,7 +117,7 @@ public class GUIConfig {
     }
 
     public static void formatActionButtons(JButton pasteUserText, JButton copyCipherText, JButton clearScreen, JButton callCipher, boolean encode) {
-        pasteUserText.setBounds(570, 163, 240, 35);
+        pasteUserText.setBounds(540, 163, 270, 35);
         pasteUserText.setText("Paste text from Clipboard");
         pasteUserText.setFont(new Font("Arial", Font.PLAIN, 18));
         pasteUserText.setFocusable(false);
